@@ -1,0 +1,30 @@
+.support {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 4rem;
+
+  &__item {
+    width: 15%;
+
+    &__title {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      text-align: left;
+
+      &--icon {
+        color: var(--color-primary-dark);
+        font-size: 3rem;
+        margin-right: 1rem;
+      }
+    }
+
+    &--desc {
+      font-size: 1.3rem;
+      color: var(--color-text);
+      margin-left: 3.7rem;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.product {
+  cursor: pointer;
+  margin: 2rem auto;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+
+  &__img {
+    width: 27rem;
+    height: 31rem;
+    object-fit: cover;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  span {
+    color: var(--color-primary-dark);
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+  }
+
+  &:hover {
+    background-color: #dddddd;
+    transform: translateY(-1rem);
+  }
+}
