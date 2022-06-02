@@ -1,0 +1,98 @@
+.about-cart {
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45rem;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  .cart1 {
+    width: 34%;
+    height: 40rem;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(#58d68d, 0.7),
+        rgba(#117a65, 0.7)
+      ),
+      url(../../public/assets/aboutcart3.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 4.5rem;
+
+    &-link--1 {
+      position: absolute;
+      margin-bottom: 7rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 1.5rem 4rem;
+      display: inline-block;
+      border-radius: 10rem;
+      transition: all 0.2s;
+      animation: all 1s ease-out;
+      font-size: 2rem;
+      border: none;
+      cursor: pointer;
+      background-color: white;
+      color: #1d1d1d;
+    }
+
+    &-link--1:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 1rem 2rem rgba(#1d1d1d, 0.2);
+
+      &::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+      }
+    }
+  }
+
+  .cart2 {
+    width: 34%;
+    height: 40rem;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(#024e82, 0.7),
+        rgba(#86a1b3, 0.7)
+      ),
+      url(../../public/assets/aboutcart.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    &-link--2 {
+      position: absolute;
+      margin-bottom: 7rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 1.5rem 4rem;
+      display: inline-block;
+      border-radius: 10rem;
+      transition: all 0.2s;
+      animation: all 1s ease-out;
+      font-size: 2rem;
+      border: none;
+      cursor: pointer;
+      background-color: white;
+      color: #1d1d1d;
+    }
+
+    &-link--2:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 1rem 2rem rgba(#1d1d1d, 0.2);
+
+      &::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+      }
+    }
+  }
+}

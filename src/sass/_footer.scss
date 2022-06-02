@@ -1,4 +1,4 @@
-.container {
+.footer-container {
   display: flex;
   font-size: 1.25rem;
 
@@ -8,8 +8,13 @@
     flex-direction: column;
     padding: 20px;
 
+    .footer-logo {
+      text-align: left;
+    }
+
     .desc {
       margin: 20px 0px;
+      width: 80%;
     }
 
     .social-container {

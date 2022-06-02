@@ -8,6 +8,8 @@
   &__logo {
     font-size: 3rem;
     flex: 1;
+    text-decoration: none;
+    color: inherit;
   }
 
   &__list {
@@ -23,6 +25,8 @@
       margin-right: 2rem;
       cursor: pointer;
       position: relative;
+      text-decoration: none;
+      color: inherit;
 
       &::before {
         content: '';

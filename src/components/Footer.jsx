@@ -8,9 +8,9 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 const Footer = () => {
   return (
-    <div className="container">
+    <div className="footer-container">
       <div className="left">
-        <h1 className="logo">Muhmmad UFO.</h1>
+        <h1 className="footer-logo">Muhmmad UFO.</h1>
         <p className="desc">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
@@ -49,14 +49,17 @@ const Footer = () => {
       <div className="right">
         <h2 className="title">Contact</h2>
         <div className="contact-item">
-          <RoomIcon style={{ marginRight: '10px' }} /> Mashhad City / Ghasem
-          Abad!
+          <RoomIcon style={{ marginRight: '10px', color: '#024e82' }} /> Mashhad
+          City / Ghasem Abad!
         </div>
         <div className="contact-item">
-          <PhoneIcon style={{ marginRight: '10px' }} /> +98 937 1700 671
+          <PhoneIcon style={{ marginRight: '10px', color: '#024e82' }} /> +98
+          937 1700 671
         </div>
         <div className="contact-item">
-          <EmailOutlinedIcon style={{ marginRight: '10px' }} />{' '}
+          <EmailOutlinedIcon
+            style={{ marginRight: '10px', color: '#024e82' }}
+          />{' '}
           Muhmmad.ufo.313@gmail.com
         </div>
         <img className="payment" src="/assets/payment.png" alt="" />
